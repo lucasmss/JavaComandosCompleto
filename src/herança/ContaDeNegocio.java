@@ -24,9 +24,13 @@ public class ContaDeNegocio extends Conta {
 	
 	public void emprestimo(double valor) {
 		if(valor >= emprestimoLimit) {
-			deposito(valor);
+			conta += valor -10.0;
 		}
 		
 	}
+	
+	
+	
+	// super é quando for necessário fazer uma sobreposição.
 
 }

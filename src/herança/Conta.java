@@ -4,7 +4,7 @@ public class Conta {
 
 	private Integer numero;
 	private String nome;
-	private double conta;
+	protected double conta;
 	
 	public Conta() {
 		
